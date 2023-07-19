@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200;400;700&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body{
+    font-family: poppins !important;
+}
+
+/* Nav CSS Start */
+.navbar{
+    background-color: rgb(31, 185, 31) !important;  
+}
+.navbar-brand{
+    font-size: 35px;
+    color: white !important;
+}
+
+#navbarNav{
+    justify-content: center;
+}
+
+.navbar-toggler{
+    border-color: white !important;
+    background: linear-gradient(white, green);
+    border-radius: 5px;
+    
+}
+
+.nav-link{
+    padding: 10px 45px !important;
+    font-size: 25px;
+    text-align: center;
+    transition: 0.5s;
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: rgb(10, 0, 0) !important;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+/* Nav CSS End */
+
+
+/* Main All Page CSS Start */
+.design{
+    background: linear-gradient(90deg,rgb(177, 253, 177), white);
+}
+/* Main All Page CSS End */
+
+
+/* Branch Page CSS Start */
+i{
+    color: black;
+    transition: 0.3s;
+}
+
+i:hover{
+    color: green;
+}
+/* Branch Page CSS End */
+
+
+
+/* Footer CSS Start */
+.navbar2{
+    background-color: rgb(31, 185, 31);
+    color: white;
+    text-align: center;
+}
+
+/* Footer CSS End */
+
+
+/* About Page CSS Start */
+.sign{
+    font-family: tangerine;
+}
+/* About Page CSS End */
+
